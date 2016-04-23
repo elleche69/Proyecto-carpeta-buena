@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE3BD689-58B6-49B9-3655-694CFCCCEAD4" name="Trabajadores">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>BB1ED7BF-99BD-28DD-D40C-154FB8FCFEEC</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<abbreviation>tr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tr_DNI" id="73B249EE-73AD-A108-02F8-1320822458CD">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>D5784B9B-8ADE-1079-F325-C7C9A7742BF5</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Nombre" id="121D7F07-CFD8-CDDA-C48A-04806F6B3992">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>88226353-CFC8-71AE-C6D5-0C1CA71C1691</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Ap1" id="7DA28E81-11CF-8A81-4AFE-B8ED48B968C9">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>D85CE372-16E3-665A-7D3C-A8CB31DE27BA</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Ap2" id="D0351FDC-7534-C5B5-7892-CD698A356F46">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>B21DAD3D-0520-4738-BF8A-AA4D50B9F2E9</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Calle" id="B27D4BAF-7A51-58E2-01A8-88DAD0F93A73">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>3C07A146-DC6A-F224-96A7-31F2B5D49A24</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Portal" id="89396D4B-E602-7A80-E41A-08C978E84EC6">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>6A1B4EF8-98FF-81A7-CF6E-FF5A066CDF6D</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Piso" id="ADBA3FF0-DC5D-DF37-0795-91127B04BED2">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>3C4E7861-EC1A-BE2D-FA1E-2EFD5E2765D2</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Mano" id="1532880F-1399-F5AF-D52B-D9EFC28BACB4">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>26E8C62E-25AB-ECC4-40F1-39AA56F74930</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_TPersonal" id="B95D9E45-EBDD-085E-669F-3C05B3BAD58B">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>85FF6C1A-8396-ADD2-C0AE-55E251EEA6A3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_TEmpresa" id="194A423F-F900-C6CA-9712-3045DC69857A">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>82D66B73-12ED-96B3-C5FE-CB6A456B0B05</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_F_nac" id="1EB9D9EB-0F3F-25B4-9ECF-497CA1372AF7">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>12BC1E53-5855-4C2A-FA6F-7930688FA0C3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_Salario" id="5B15388D-E581-1030-63CB-3E7D4CAE4169">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>76E30D49-7BC3-60D2-408D-707C79203BCC</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_id_ct" id="3F11BA8E-D973-8AAF-ED71-1D06CBD64D04">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>212660D2-FE21-CFBF-76B3-B7D5F8E9244D</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26F84B47-AF7F-5115-333D-E29D9810D669" referredColumn="F751C290-5489-C0D5-B5F7-3BC19841C00A"/>
+</associations>
+</Column>
+<Column name="Tipo_trab" id="A8F94477-EE65-47D0-21B4-1226A556B458">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-11 09:01:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E52C3E9-35E1-EAAF-4267-508F738AE2BC" name="Trabajadores_PK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>E1DCC362-79A2-3C78-02D0-EAF0C58EDAD3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B249EE-73AD-A108-02F8-1320822458CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3289ABB-5ABA-CF72-8188-210E2B017CBB" name="Trabajadores_Centros_de_trabajo_FK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>FFFAF9D8-51D7-E7D4-79CB-039B38665BA2</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F11BA8E-D973-8AAF-ED71-1D06CBD64D04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

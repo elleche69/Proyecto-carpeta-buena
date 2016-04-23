@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CA3237C-5AA6-C50A-ACAD-7BAF4A8CF3AA" name="Centros_de_trabajo">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>421FD0C2-0602-62B8-E7AD-EA5E5A9C2A43</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<abbreviation>CT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ct" id="F751C290-5489-C0D5-B5F7-3BC19841C00A">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>3AF6A9BE-E015-2691-7014-6006D0259CC2</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="24AEF078-2BC2-4C6E-04A8-ABB763A8ABE3">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>FCB4715F-EDD9-590D-F43D-696583661057</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="20611877-58AC-EB84-A3E5-E69139DCBC57">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>E7CD90E3-4902-9010-3808-FB4968143421</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="F8609047-E751-1C7D-E7D9-BED7CF98380D">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>C65577E9-3808-928F-9504-F1978533D445</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CP" id="A4C3DEFE-1087-C921-3307-6657B4138108">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>22A8EC73-FBBB-370A-16FB-05A61DD54CA5</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="78D5BC35-2F12-2EA3-3E18-408B7A4FAD7B">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>D436E8E7-3D36-A8A7-845E-ACD6CC196041</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia" id="32D19BFC-0C2C-F490-4E62-6444E7176D2A">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>C4353B8C-1502-E81E-3E1C-6EAF60EBAA9A</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="6B03AA6C-404A-1BD6-FE4D-473402FF9135">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>487DDF7C-7BBE-9EC2-7BCF-5119DDE3EB06</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F2E7D54-0E88-4A46-5DDC-9FDE26D7DF61" name="Centros_de_trabajo_PK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>3BBBACC7-BDAC-1477-7769-C8C86FA2A5A8</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F751C290-5489-C0D5-B5F7-3BC19841C00A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

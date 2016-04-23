@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="D0236651-3865-8921-E884-AD5317508659" name="Albaran" seqName="seg_0"/>
+   <object objectType="Entity" objectID="421FD0C2-0602-62B8-E7AD-EA5E5A9C2A43" name="Centros_de_trabajo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3A416C41-C049-E220-798F-EF19C61F87C0" name="Linea" seqName="seg_0"/>
+   <object objectType="Entity" objectID="09C75110-EC8E-8CFC-C760-9C2D4C39E786" name="Partes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C4E8670C-A14D-09E0-B985-691E39A6C11E" name="Trabajador_administracion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4F48A327-234E-15F9-2AB2-C2EDD366C266" name="Trabajador_logistica" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BB1ED7BF-99BD-28DD-D40C-154FB8FCFEEC" name="Trabajadores" seqName="seg_0"/>
+   <object objectType="Entity" objectID="51E30465-6138-C46B-9D3D-4D2FE455C350" name="Usuario" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F247B69D-E5E7-C643-88F0-FE0D6AA617BB" name="Vehiculo" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B99CF343-8D4A-9DCC-BE49-A7868C1941A5" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8C6C8357-8D5D-3919-8B0C-535AC7A1F6D2" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="77770F5A-4850-FFAC-BF03-F57963F1F775" name="Relation_12" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EAF816A8-B51C-55CF-A26E-A25F74E8C1F3" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="45715CCE-BA3B-4ECE-DE4F-DFDD1A9421E9" name="Se utiliza" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9062702A-EB38-CEDC-256F-9BA9A40B3E14" name="Tiene" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FFFAF9D8-51D7-E7D4-79CB-039B38665BA2" name="Trabaja" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="EC013E14-3E36-7F8A-0A28-E1EF5E8E83ED" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="2A153974-5AC5-FDB0-A68C-28FCA78E8C86" name="Hierarchy_2" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

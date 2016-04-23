@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3764A4B2-A29D-F59C-AFE3-2D373AEF4FD9" name="Trabajador_logistica">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>4F48A327-234E-15F9-2AB2-C2EDD366C266</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tr_DNI" id="A09B31DC-E862-B0B0-24AB-5BE33F1E1FF4">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>D5784B9B-8ADE-1079-F325-C7C9A7742BF5</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1C4262A-8552-7613-411D-F424C12E8998" referredColumn="73B249EE-73AD-A108-02F8-1320822458CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40A1D4EB-8F46-84F3-C346-C85C3EF56A02" name="Trabajador_logistica_PK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>E1DCC362-79A2-3C78-02D0-EAF0C58EDAD3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09B31DC-E862-B0B0-24AB-5BE33F1E1FF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D72F03DF-A767-9824-830A-85EC76E8998B" name="Trabajador_logistica_Trabajadores_FK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>2A153974-5AC5-FDB0-A68C-28FCA78E8C86</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09B31DC-E862-B0B0-24AB-5BE33F1E1FF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

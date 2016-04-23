@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB1ED7BF-99BD-28DD-D40C-154FB8FCFEEC" name="Trabajadores">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:04:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>tr</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="D5784B9B-8ADE-1079-F325-C7C9A7742BF5">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:05:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="88226353-CFC8-71AE-C6D5-0C1CA71C1691">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:06:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ap1" id="D85CE372-16E3-665A-7D3C-A8CB31DE27BA">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:06:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ap2" id="B21DAD3D-0520-4738-BF8A-AA4D50B9F2E9">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:07:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Calle" id="3C07A146-DC6A-F224-96A7-31F2B5D49A24">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:07:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Portal" id="6A1B4EF8-98FF-81A7-CF6E-FF5A066CDF6D">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:08:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Piso" id="3C4E7861-EC1A-BE2D-FA1E-2EFD5E2765D2">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:08:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mano" id="26E8C62E-25AB-ECC4-40F1-39AA56F74930">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:09:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPersonal" id="85FF6C1A-8396-ADD2-C0AE-55E251EEA6A3">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:11:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEmpresa" id="82D66B73-12ED-96B3-C5FE-CB6A456B0B05">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:11:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F_nac" id="12BC1E53-5855-4C2A-FA6F-7930688FA0C3">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:11:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="76E30D49-7BC3-60D2-408D-707C79203BCC">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:12:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ct" id="212660D2-FE21-CFBF-76B3-B7D5F8E9244D">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:20:12 UTC</createdTime>
+<generatorID>FFFAF9D8-51D7-E7D4-79CB-039B38665BA2</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<referedAttribute>3AF6A9BE-E015-2691-7014-6006D0259CC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_de_usuario" id="1370E619-7CFE-1B21-8A0F-B2FAC85805F1">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:30:25 UTC</createdTime>
+<generatorID>9062702A-EB38-CEDC-256F-9BA9A40B3E14</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<referedAttribute>5EC37ACE-1EE3-ADE9-D088-EC829496AAA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1DCC362-79A2-3C78-02D0-EAF0C58EDAD3" name="Trabajadores PK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-02-26 09:06:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5784B9B-8ADE-1079-F325-C7C9A7742BF5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

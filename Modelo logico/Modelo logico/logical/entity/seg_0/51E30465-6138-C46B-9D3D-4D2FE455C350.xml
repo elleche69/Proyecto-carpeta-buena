@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51E30465-6138-C46B-9D3D-4D2FE455C350" name="Usuario">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:27:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_de_usuario" id="5EC37ACE-1EE3-ADE9-D088-EC829496AAA7">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:28:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="797669E5-6C45-8C1D-3DF7-8862A7705539">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:28:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="16339860-CAFE-6E5D-4528-B3D1E1AEF754">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:30:14 UTC</createdTime>
+<generatorID>9062702A-EB38-CEDC-256F-9BA9A40B3E14</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<referedAttribute>D5784B9B-8ADE-1079-F325-C7C9A7742BF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A97FC68-4BF6-62CC-6254-90227D1D9744" name="Usuario PK">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:28:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EC37ACE-1EE3-ADE9-D088-EC829496AAA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

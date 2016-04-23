@@ -1,0 +1,297 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12E82D58-6E3D-3EA1-5FCF-928910918054" name="Partes">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>09C75110-EC8E-8CFC-C760-9C2D4C39E786</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Num_Parte" id="B00BEAB7-4136-0A72-EA45-4E41D1DF970A">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>B3CAFDD2-D3DB-775B-D06A-9190C1AC7E63</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KmInicio" id="3B5641A6-A592-32E6-1A54-ACB5D868E233">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>EB604CE4-E82A-D233-7E87-4618FF7B0B81</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KmFinal" id="B086187F-738F-D636-979B-D397893F743A">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>610D44CD-8BC5-57B4-33FC-71EC8418F5E5</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_gasoil" id="2A582240-E545-DD70-F4D6-96C95E42D3B7">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>A8BF4BC7-1583-5B46-DA9F-A9E23AA719D0</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_autopistas" id="8EB3B533-0640-5B73-5C8A-D2384C7C82D5">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>E3C5CA96-C705-99E9-8B0D-47DE850BB141</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="G_dietas" id="0E77A259-B563-5F31-775A-94E3DA8E9E8C">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>590E8BF4-9B48-FCE4-DEDB-1491408B4802</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Otros_gastos" id="3F4C2AD3-C6AE-87C7-B1DA-BF674F0363E9">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>FE8E63A2-C8FD-3307-7AD7-ACF6EC3F6DFC</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Incidencias" id="0915D258-E43D-2FCF-2282-D4D223C166F0">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>AE3ABF19-0C82-4231-A726-6C4AAE7DF81B</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="6C5ED8FC-A7AB-AF1C-1524-72F2939290BB">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>463283E4-EB36-9CB2-6204-9A4E27D7BD0A</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI1" id="B43F980E-A814-01E9-DBCB-696FD7F03AEF">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>1E5A0979-D612-B271-B45E-C43C61BBF946</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="5BB98039-A485-4BAC-F51B-53CADD74A5AC">
+<createdBy>Amets</createdBy>
+<createdTime>2016-04-07 08:57:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="8A35378A-C6DB-90D7-A3CA-7BF14126DD34">
+<createdBy>Amets</createdBy>
+<createdTime>2016-04-07 08:57:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trabajadores_tr_DNI" id="19819AB1-7B24-A52B-C695-A35EEE08C2D5">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-11 09:43:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7541185-AECB-94CD-72F4-99B9CC58A569" referredColumn="73B249EE-73AD-A108-02F8-1320822458CD"/>
+</associations>
+</Column>
+<Column name="Trabajadores_tr_DNI1" id="E06EAAA5-FFA4-52EB-41FA-7869DD1F6835">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-11 09:44:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DD66F24-53C6-5079-B86B-BBA33A592523" referredColumn="73B249EE-73AD-A108-02F8-1320822458CD"/>
+</associations>
+</Column>
+<Column name="Vehiculo_Matricula" id="215E7B8A-A1FF-A575-A9DA-A430A35DBA36">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:21:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB4C3260-665F-53E2-A5B7-FADD233F9274" referredColumn="C9936E09-E3AC-B1A8-77C7-F7D340A70A05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67061FA8-D8D9-C4AA-3E24-8B6D5DC0E428" name="Partes_PK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-04 07:29:23 UTC</createdTime>
+<generatorID>01EBE774-82CE-21A2-7FFB-20C1F6374CC3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B00BEAB7-4136-0A72-EA45-4E41D1DF970A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E07BF8C8-E440-5808-BE70-93E5E22CFC2D" name="Partes_Trabajador_logistica_FK">
+<createdBy>Amets</createdBy>
+<createdTime>2016-04-07 08:53:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="2BAC617E-0339-5EDD-1719-29287F13A6F6" name="Partes_Trabajador_administracion_FK">
+<createdBy>Amets</createdBy>
+<createdTime>2016-04-07 08:53:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0590EC87-6AE4-76D9-4509-52E27E1BBB52" name="Partes_Trabajadores_logistica_escribe_FK">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-11 09:43:28 UTC</createdTime>
+<generatorID>E1DCC362-79A2-3C78-02D0-EAF0C58EDAD3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19819AB1-7B24-A52B-C695-A35EEE08C2D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C3915D-830A-3C52-C3C9-777D7ECC091D" name="Partes_Trabajador_administracion_FKv1">
+<createdBy>1GBD09</createdBy>
+<createdTime>2016-03-11 09:44:56 UTC</createdTime>
+<generatorID>E1DCC362-79A2-3C78-02D0-EAF0C58EDAD3</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E06EAAA5-FFA4-52EB-41FA-7869DD1F6835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E812D81E-7CB1-E7D0-BCD0-7C819C16C161" name="Partes_Trabajador_logistica_FK">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:18:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4F23CDB1-439F-7339-7F39-212781B8652A" name="Partes_Trabajador_administracion_FK">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:18:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="5C2B7234-E5FB-A018-B3B0-4DBB2801FE39" name="Partes_Vehiculo_FK">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:21:15 UTC</createdTime>
+<generatorID>D9410AD2-9B43-76AC-CEDF-7A21C2D11D44</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="215E7B8A-A1FF-A575-A9DA-A430A35DBA36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

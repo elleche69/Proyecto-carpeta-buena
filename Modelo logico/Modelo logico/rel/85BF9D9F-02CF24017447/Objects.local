@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="93365BD2-64BA-25FF-1BD6-69C058D1487A" name="Albaranes" seqName="seg_0"/>
+   <object objectType="Table" objectID="0CA3237C-5AA6-C50A-ACAD-7BAF4A8CF3AA" name="Centros_de_trabajo" seqName="seg_0"/>
+   <object objectType="Table" objectID="F3DE1770-0A44-22E4-35D1-5720BB2591F7" name="Lineas" seqName="seg_0"/>
+   <object objectType="Table" objectID="12E82D58-6E3D-3EA1-5FCF-928910918054" name="Partes" seqName="seg_0"/>
+   <object objectType="Table" objectID="C09D8367-14A8-70F8-D07A-EC5E84C5FE40" name="Trabajador_administracion" seqName="seg_0"/>
+   <object objectType="Table" objectID="3764A4B2-A29D-F59C-AFE3-2D373AEF4FD9" name="Trabajador_logistica" seqName="seg_0"/>
+   <object objectType="Table" objectID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4" name="Trabajadores" seqName="seg_0"/>
+   <object objectType="Table" objectID="84776F8E-207E-2690-75FA-E39538AB7FDA" name="Usuarios" seqName="seg_0"/>
+   <object objectType="Table" objectID="FD75C268-D42E-309A-792A-F768C4492819" name="Vehiculos" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D8347D96-513E-FE4C-2E98-F385BB095D5D" name="Albaran_Linea_FK" seqName="seg_0" containerID="93365BD2-64BA-25FF-1BD6-69C058D1487A" refContainerID="F3DE1770-0A44-22E4-35D1-5720BB2591F7"/>
+   <object objectType="FKIndexAssociation" objectID="62B1C7D1-A397-17D8-CAE7-09B94A90E59B" name="Linea_Partes_FK" seqName="seg_0" containerID="F3DE1770-0A44-22E4-35D1-5720BB2591F7" refContainerID="12E82D58-6E3D-3EA1-5FCF-928910918054"/>
+   <object objectType="FKIndexAssociation" objectID="65E341CA-5C33-3458-ECE2-BAEFE9589A74" name="Partes_Trabajador_administracion_FK" seqName="seg_0" containerID="12E82D58-6E3D-3EA1-5FCF-928910918054" refContainerID="C09D8367-14A8-70F8-D07A-EC5E84C5FE40"/>
+   <object objectType="FKIndexAssociation" objectID="8DD66F24-53C6-5079-B86B-BBA33A592523" name="Partes_Trabajador_administracion_FKv1" seqName="seg_0" containerID="12E82D58-6E3D-3EA1-5FCF-928910918054" refContainerID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4"/>
+   <object objectType="FKIndexAssociation" objectID="5D79FF45-70A2-F289-10C8-80F1FC543AFA" name="Partes_Trabajador_logistica_FK" seqName="seg_0" containerID="12E82D58-6E3D-3EA1-5FCF-928910918054" refContainerID="3764A4B2-A29D-F59C-AFE3-2D373AEF4FD9"/>
+   <object objectType="FKIndexAssociation" objectID="F7541185-AECB-94CD-72F4-99B9CC58A569" name="Partes_Trabajadores_logistica_escribe_FK" seqName="seg_0" containerID="12E82D58-6E3D-3EA1-5FCF-928910918054" refContainerID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4"/>
+   <object objectType="FKIndexAssociation" objectID="FB4C3260-665F-53E2-A5B7-FADD233F9274" name="Partes_Vehiculo_FK" seqName="seg_0" containerID="12E82D58-6E3D-3EA1-5FCF-928910918054" refContainerID="FD75C268-D42E-309A-792A-F768C4492819"/>
+   <object objectType="FKIndexAssociation" objectID="49EF5710-1D6A-BF11-90A0-C81BE6A5F94D" name="Trabajador_administracion_Trabajadores_FK" seqName="seg_0" containerID="C09D8367-14A8-70F8-D07A-EC5E84C5FE40" refContainerID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4"/>
+   <object objectType="FKIndexAssociation" objectID="C1C4262A-8552-7613-411D-F424C12E8998" name="Trabajador_logistica_Trabajadores_FK" seqName="seg_0" containerID="3764A4B2-A29D-F59C-AFE3-2D373AEF4FD9" refContainerID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4"/>
+   <object objectType="FKIndexAssociation" objectID="26F84B47-AF7F-5115-333D-E29D9810D669" name="Trabajadores_Centros_de_trabajo_FK" seqName="seg_0" containerID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4" refContainerID="0CA3237C-5AA6-C50A-ACAD-7BAF4A8CF3AA"/>
+   <object objectType="FKIndexAssociation" objectID="FEDB1097-9119-4BDB-F54F-90853A6E36E5" name="Usuarios_Trabajadores_FK" seqName="seg_0" containerID="84776F8E-207E-2690-75FA-E39538AB7FDA" refContainerID="EE3BD689-58B6-49B9-3655-694CFCCCEAD4"/>
+   <object objectType="FKArc" objectID="23865306-94A6-2126-2167-DD3480716C99" name="FKArc_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

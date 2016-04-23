@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tiene" directorySegmentName="seg_0" id="9062702A-EB38-CEDC-256F-9BA9A40B3E14">
+<createdBy>aitor</createdBy>
+<createdTime>2016-04-23 12:30:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo logico</ownerDesignName>
+<engineerTo>
+<item key="85BF9D9F-1207-0CFD-E44E-02CF24017447" value="true"/>
+</engineerTo>
+<sourcePk>E1DCC362-79A2-3C78-02D0-EAF0C58EDAD3</sourcePk>
+<targetPk>7A97FC68-4BF6-62CC-6254-90227D1D9744</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BB1ED7BF-99BD-28DD-D40C-154FB8FCFEEC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>51E30465-6138-C46B-9D3D-4D2FE455C350</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
